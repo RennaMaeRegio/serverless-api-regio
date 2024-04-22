@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-const dbCloudUrl = 'mongodb+srv://renna:rennamg6@cluster0.oo3lhmf.mongodb.net/dataB?retryWrites=true&w=majority&appName=Cluster0';
+const dbCloudUrl = 'mongodb+srv://regio:renna123@cluster0.oo3lhmf.mongodb.net/testDB?retryWrites=true&w=majority&appName=Cluster0';
 
 app.use(cors());
 app.use(express.json());
